@@ -19,6 +19,7 @@
 		0A81ECEA15164FB000E6B0DE /* cloudmonitoring.tif in Resources */ = {isa = PBXBuildFile; fileRef = 0A81ECE915164FB000E6B0DE /* cloudmonitoring.tif */; };
 		0ACFCB6E15167877007B538A /* AGKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFCB6D15167877007B538A /* AGKeychain.m */; };
 		0ACFCB7515167AA6007B538A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFCB7415167AA6007B538A /* Security.framework */; };
+		0ACFCB7915169A5D007B538A /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0ACFCB7815169A5D007B538A /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		0ACFCB6C15167877007B538A /* AGKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKeychain.h; sourceTree = "<group>"; };
 		0ACFCB6D15167877007B538A /* AGKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKeychain.m; sourceTree = "<group>"; };
 		0ACFCB7415167AA6007B538A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0ACFCB7815169A5D007B538A /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		0A81ECCA151645DC00E6B0DE /* Rackspace Monitoring Taskbar */ = {
 			isa = PBXGroup;
 			children = (
+				0ACFCB7815169A5D007B538A /* README */,
 				0ACFCB6C15167877007B538A /* AGKeychain.h */,
 				0ACFCB6D15167877007B538A /* AGKeychain.m */,
 				0A81ECE4151647B300E6B0DE /* MonMenulet.h */,
@@ -177,6 +180,7 @@
 				0A81ECDB151645DC00E6B0DE /* MainMenu.xib in Resources */,
 				0A81ECE815164D5500E6B0DE /* cloudmonitoring.icns in Resources */,
 				0A81ECEA15164FB000E6B0DE /* cloudmonitoring.tif in Resources */,
+				0ACFCB7915169A5D007B538A /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

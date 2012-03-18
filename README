@@ -1,0 +1,59 @@
+Rackspace Cloud Monitoring Taskbar
+
+Original Author: Kevin Minnick
+
+This program is an objective-c Cocoa application targeted for Mac OS X.
+
+This application is specifically targeted to the Rackspace Cloud Monitoring.
+
+Go into application preferences to configure your credentials.
+
+This application utilizes the ASI objective-c libraries, that can be downloaded freely from
+http://allseeing-i.com/ASIHTTPRequest/ (BSD License)
+
+AGKeychain.* is based on code from "Core Mac OS X and Unix Programming"
+by Mark Dalrymple and Aaron Hillegass
+http://borkware.com/corebook/source-code
+Created by Adam Gerson on 3/6/05.
+agerson@mac.com
+
+RegexKitLite.h is http://regexkit.sourceforge.net/
+Licensed under the terms of the BSD License, as specified below.
+
+Don't forget to reference from XCode when compiling:
+Cocoa.framework
+Foundation.framework
+SystemConfiguration.framework
+libz.1.2.3.dylib
+CoreServices.framework
+libicucore.dylib
+Security.framework
+
+Icon Credit: Rackspace http://www.rackspace.com
+
+License (BSD)
+
+* Copyright (c) 2011, Kevin Minnick
+* All rights reserved.
+*
+* Redistribution and use in source and binary forms, with or without
+* modification, are permitted provided that the following conditions are met:
+*     * Redistributions of source code must retain the above copyright
+*       notice, this list of conditions and the following disclaimer.
+*     * Redistributions in binary form must reproduce the above copyright
+*       notice, this list of conditions and the following disclaimer in the
+*       documentation and/or other materials provided with the distribution.
+*     * Neither the name of Kevin Minnick nor the
+*       names of its contributors may be used to endorse or promote products
+*       derived from this software without specific prior written permission.
+*
+* THIS SOFTWARE IS PROVIDED BY Kevin Minnick ''AS IS'' AND ANY
+* EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+* WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+* DISCLAIMED. IN NO EVENT SHALL Kevin Minnick BE LIABLE FOR ANY
+* DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+* (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+* LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+* ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+* (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+* SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

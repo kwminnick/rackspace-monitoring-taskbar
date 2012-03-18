@@ -502,7 +502,7 @@
 		<string>DVTIdentifier</string>
 		<string>DVTViewMagnitude</string>
 		<string>VariablesView</string>
-		<real>250</real>
+		<real>338</real>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -542,7 +542,7 @@
 			</array>
 		</dict>
 		<string>ConsoleArea</string>
-		<real>752</real>
+		<real>664</real>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -621,7 +621,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>250</real>
+		<real>338</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -651,7 +651,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>752</real>
+		<real>664</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1050,7 +1050,7 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>353802360.94501001</real>
+		<real>353802853.06945997</real>
 		<string>{1790, 1232}</string>
 		<string>{2151, 0}</string>
 		<string>-showPrefsWindow:</string>
@@ -2619,10 +2619,6 @@
 					<key>CF$UID</key>
 					<integer>96</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>93</integer>
-				</dict>
 			</array>
 		</dict>
 		<string>Rackspace Monitoring Taskbar</string>
@@ -3272,27 +3268,27 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>525</integer>
+					<integer>531</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>530</integer>
+					<integer>536</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>533</integer>
+					<integer>539</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>564</integer>
+					<integer>570</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>565</integer>
+					<integer>571</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>573</integer>
+					<integer>579</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3364,7 +3360,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>515</integer>
+					<integer>521</integer>
 				</dict>
 			</array>
 		</dict>
@@ -4696,32 +4692,32 @@
 					<key>CF$UID</key>
 					<integer>471</integer>
 				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>473</integer>
+				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>473</integer>
+					<integer>475</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>476</integer>
+					<integer>478</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>479</integer>
+					<integer>481</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>482</integer>
+					<integer>484</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>486</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>489</integer>
+					<integer>488</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -4729,7 +4725,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>494</integer>
+					<integer>495</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -4737,19 +4733,27 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>501</integer>
+					<integer>500</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>505</integer>
+					<integer>504</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>509</integer>
+					<integer>508</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>512</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>515</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>518</integer>
 				</dict>
 			</array>
 		</dict>
@@ -4855,7 +4859,7 @@
 				<integer>101</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/kevin/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace%20Monitoring%20Taskbar/MonMenulet.h</string>
+			<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/README</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -4881,7 +4885,7 @@
 				<integer>101</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/MonMenulet.h</string>
+			<string>file://localhost/Users/kevin/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace%20Monitoring%20Taskbar/MonMenulet.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -4907,7 +4911,7 @@
 				<integer>101</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace_Monitoring_TaskbarAppDelegate.h</string>
+			<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/MonMenulet.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -4933,7 +4937,7 @@
 				<integer>101</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/kevin/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace_Monitoring_TaskbarAppDelegate.h</string>
+			<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace_Monitoring_TaskbarAppDelegate.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -4959,7 +4963,7 @@
 				<integer>101</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/kevin/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace%20Monitoring%20Taskbar/MonMenulet.m</string>
+			<string>file://localhost/Users/kevin/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace_Monitoring_TaskbarAppDelegate.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -4985,7 +4989,7 @@
 				<integer>101</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/kevin/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace%20Monitoring%20Taskbar/en.lproj/InfoPlist.strings</string>
+			<string>file://localhost/Users/kevin/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace%20Monitoring%20Taskbar/MonMenulet.m</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -5011,7 +5015,7 @@
 				<integer>101</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/AGKeychain.m</string>
+			<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/MonMenulet.m</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -5037,7 +5041,7 @@
 				<integer>101</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/MonMenulet.m</string>
+			<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/AGKeychain.m</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -5063,7 +5067,7 @@
 				<integer>101</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/var/folders/hz/m0t3s3v94x517qw7fn4p51lc0000gn/T/-%5BNSObject%20performSelector:withObject:%5D_disassembly_0x00007fff9195b75d.s</string>
+			<string>file://localhost/Users/kevin/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace%20Monitoring%20Taskbar/en.lproj/InfoPlist.strings</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -5080,6 +5084,32 @@
 			<dict>
 				<key>CF$UID</key>
 				<integer>472</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>101</integer>
+			</dict>
+			<key>NS.string</key>
+			<string>file://localhost/var/folders/hz/m0t3s3v94x517qw7fn4p51lc0000gn/T/-%5BNSObject%20performSelector:withObject:%5D_disassembly_0x00007fff9195b75d.s</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>116</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>474</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -5120,11 +5150,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>474</integer>
+					<integer>476</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>475</integer>
+					<integer>477</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5167,11 +5197,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>477</integer>
+					<integer>479</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>478</integer>
+					<integer>480</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5214,11 +5244,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>480</integer>
+					<integer>482</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>481</integer>
+					<integer>483</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5232,6 +5262,54 @@
 		</dict>
 		<real>353801639.11917198</real>
 		<string>{0, 273}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>49</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>105</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>106</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>107</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>108</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>485</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>486</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>487</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>353802820.68076402</real>
+		<string>{817, 1705}</string>
+		<string>{1008, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5261,11 +5339,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>483</integer>
+					<integer>489</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>484</integer>
+					<integer>490</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5273,7 +5351,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>485</integer>
+					<integer>491</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5309,11 +5387,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>487</integer>
+					<integer>493</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>488</integer>
+					<integer>494</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5356,11 +5434,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>490</integer>
+					<integer>496</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>491</integer>
+					<integer>497</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5403,7 +5481,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>493</integer>
+					<integer>499</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5449,11 +5527,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>495</integer>
+					<integer>501</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>496</integer>
+					<integer>502</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5461,13 +5539,109 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>497</integer>
+					<integer>503</integer>
 				</dict>
 			</array>
 		</dict>
 		<real>353793754.46463603</real>
 		<string>{985, 1882}</string>
 		<string>{1791, 0}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>49</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>105</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>106</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>107</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>108</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>505</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>506</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>507</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>353802853.06593502</real>
+		<string>{1790, 1232}</string>
+		<string>{2151, 0}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>49</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>105</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>106</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>107</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>108</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>509</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>510</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>17</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>511</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>353796907.39883798</real>
+		<string>{4060, 1782}</string>
+		<string>{4972, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5497,11 +5671,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>499</integer>
+					<integer>513</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>500</integer>
+					<integer>514</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5525,102 +5699,6 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>105</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>106</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>107</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>108</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>502</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>503</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>17</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>504</integer>
-				</dict>
-			</array>
-		</dict>
-		<real>353796907.39883798</real>
-		<string>{4060, 1782}</string>
-		<string>{4972, 0}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>49</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>105</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>106</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>107</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>108</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>506</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>507</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>17</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>508</integer>
-				</dict>
-			</array>
-		</dict>
-		<real>353802360.942725</real>
-		<string>{1790, 1232}</string>
-		<string>{2151, 0}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>49</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
 					<integer>160</integer>
 				</dict>
 				<dict>
@@ -5640,11 +5718,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>510</integer>
+					<integer>516</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>511</integer>
+					<integer>517</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5687,11 +5765,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>513</integer>
+					<integer>519</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>514</integer>
+					<integer>520</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5715,14 +5793,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>516</integer>
+					<integer>522</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>518</integer>
+					<integer>524</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5740,7 +5818,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>517</integer>
+				<integer>523</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -5762,14 +5840,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>519</integer>
+					<integer>525</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>520</integer>
+					<integer>526</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5784,7 +5862,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>521</integer>
+					<integer>527</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5792,7 +5870,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>524</integer>
+				<integer>530</integer>
 			</dict>
 			<key>IDEQuickLookPageNumber</key>
 			<dict>
@@ -5802,12 +5880,12 @@
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>522</integer>
+				<integer>528</integer>
 			</dict>
 			<key>timestamp</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>523</integer>
+				<integer>529</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/kevin/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace%20Monitoring%20Taskbar/cloudmonitoring.icns</string>
@@ -5832,22 +5910,22 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>526</integer>
+					<integer>532</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>527</integer>
+					<integer>533</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>528</integer>
+					<integer>534</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>529</integer>
+					<integer>535</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5865,14 +5943,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>531</integer>
+					<integer>537</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>532</integer>
+					<integer>538</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5888,26 +5966,26 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>534</integer>
+					<integer>540</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>535</integer>
+					<integer>541</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>536</integer>
+					<integer>542</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>537</integer>
+					<integer>543</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>563</integer>
+					<integer>569</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5928,19 +6006,19 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>538</integer>
+					<integer>544</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>545</integer>
+					<integer>551</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>549</integer>
+					<integer>555</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>554</integer>
+					<integer>560</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5954,30 +6032,30 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>539</integer>
+					<integer>545</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>540</integer>
+					<integer>546</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>541</integer>
+					<integer>547</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>542</integer>
+					<integer>548</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>543</integer>
+					<integer>549</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>544</integer>
+					<integer>550</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5997,19 +6075,8 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>539</integer>
+					<integer>545</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>540</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>541</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>546</integer>
@@ -6018,9 +6085,20 @@
 					<key>CF$UID</key>
 					<integer>547</integer>
 				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>548</integer>
+					<integer>552</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>553</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>554</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6037,30 +6115,30 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>539</integer>
+					<integer>545</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>540</integer>
+					<integer>546</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>541</integer>
+					<integer>547</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>550</integer>
+					<integer>556</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>551</integer>
+					<integer>557</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>552</integer>
+					<integer>558</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6070,7 +6148,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>553</integer>
+				<integer>559</integer>
 			</dict>
 			<key>NS.data</key>
 			<data>
@@ -6112,34 +6190,34 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>539</integer>
+					<integer>545</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>555</integer>
+					<integer>561</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>556</integer>
+					<integer>562</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>541</integer>
+					<integer>547</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>557</integer>
+					<integer>563</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>558</integer>
+					<integer>564</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>559</integer>
+					<integer>565</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -6147,11 +6225,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>560</integer>
+					<integer>566</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>562</integer>
+					<integer>568</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -6172,7 +6250,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>561</integer>
+				<integer>567</integer>
 			</dict>
 			<key>NS.time</key>
 			<real>353802296.19644898</real>
@@ -6212,14 +6290,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>566</integer>
+					<integer>572</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>568</integer>
+					<integer>574</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6237,7 +6315,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>567</integer>
+				<integer>573</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/kevin/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace%20Monitoring%20Taskbar/cloudmonitoring.icns</string>
@@ -6251,22 +6329,22 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>569</integer>
+					<integer>575</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>570</integer>
+					<integer>576</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>571</integer>
+					<integer>577</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>572</integer>
+					<integer>578</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6282,18 +6360,6 @@
 			</dict>
 			<key>NS.objects</key>
 			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>574</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>576</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>578</integer>
-				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>580</integer>
@@ -6316,11 +6382,19 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>589</integer>
+					<integer>590</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>591</integer>
+					<integer>592</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>594</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>595</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6338,7 +6412,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>575</integer>
+				<integer>581</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/MonMenulet.m</string>
@@ -6356,7 +6430,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>577</integer>
+				<integer>583</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/main.m</string>
@@ -6374,7 +6448,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>579</integer>
+				<integer>585</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace%20Monitoring%20Taskbar-Info.plist</string>
@@ -6392,7 +6466,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>581</integer>
+				<integer>587</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/en.lproj/InfoPlist.strings</string>
@@ -6410,7 +6484,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>583</integer>
+				<integer>589</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/en.lproj/MainMenu.xib</string>
@@ -6428,7 +6502,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>585</integer>
+				<integer>591</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/AGKeychain.m</string>
@@ -6446,7 +6520,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>587</integer>
+				<integer>593</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/AGKeychain.h</string>
@@ -6481,28 +6555,10 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>590</integer>
+				<integer>596</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/Rackspace_Monitoring_TaskbarAppDelegate.h</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>116</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>592</integer>
-			</dict>
-		</dict>
-		<string>file://localhost/Users/kevin/github/rackspace-monitoring-taskbar/Rackspace%20Monitoring%20Taskbar/MonMenulet.h</string>
 	</array>
 	<key>$top</key>
 	<dict>
