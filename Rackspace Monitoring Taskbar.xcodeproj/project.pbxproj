@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A81ECC5151645DC00E6B0DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A81ECC4151645DC00E6B0DE /* Cocoa.framework */; };
+		0A81ECCF151645DC00E6B0DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A81ECCD151645DC00E6B0DE /* InfoPlist.strings */; };
+		0A81ECD1151645DC00E6B0DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A81ECD0151645DC00E6B0DE /* main.m */; };
+		0A81ECD5151645DC00E6B0DE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0A81ECD3151645DC00E6B0DE /* Credits.rtf */; };
+		0A81ECD8151645DC00E6B0DE /* Rackspace_Monitoring_TaskbarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A81ECD7151645DC00E6B0DE /* Rackspace_Monitoring_TaskbarAppDelegate.m */; };
+		0A81ECDB151645DC00E6B0DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A81ECD9151645DC00E6B0DE /* MainMenu.xib */; };
+		0A81ECDE151645DC00E6B0DE /* Rackspace_Monitoring_Taskbar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A81ECDC151645DC00E6B0DE /* Rackspace_Monitoring_Taskbar.xcdatamodeld */; };
+		0A81ECE6151647B300E6B0DE /* MonMenulet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A81ECE5151647B300E6B0DE /* MonMenulet.m */; };
+		0A81ECE815164D5500E6B0DE /* cloudmonitoring.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0A81ECE715164D5500E6B0DE /* cloudmonitoring.icns */; };
+		0A81ECEA15164FB000E6B0DE /* cloudmonitoring.tif in Resources */ = {isa = PBXBuildFile; fileRef = 0A81ECE915164FB000E6B0DE /* cloudmonitoring.tif */; };
+		0ACFCB6E15167877007B538A /* AGKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFCB6D15167877007B538A /* AGKeychain.m */; };
+		0ACFCB7515167AA6007B538A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACFCB7415167AA6007B538A /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A81ECC0151645DC00E6B0DE /* Rackspace Monitoring Taskbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rackspace Monitoring Taskbar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A81ECC4151645DC00E6B0DE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0A81ECC7151645DC00E6B0DE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0A81ECC8151645DC00E6B0DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0A81ECC9151645DC00E6B0DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A81ECCC151645DC00E6B0DE /* Rackspace Monitoring Taskbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rackspace Monitoring Taskbar-Info.plist"; sourceTree = "<group>"; };
+		0A81ECCE151645DC00E6B0DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A81ECD0151645DC00E6B0DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A81ECD2151645DC00E6B0DE /* Rackspace Monitoring Taskbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rackspace Monitoring Taskbar-Prefix.pch"; sourceTree = "<group>"; };
+		0A81ECD4151645DC00E6B0DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0A81ECD6151645DC00E6B0DE /* Rackspace_Monitoring_TaskbarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rackspace_Monitoring_TaskbarAppDelegate.h; sourceTree = "<group>"; };
+		0A81ECD7151645DC00E6B0DE /* Rackspace_Monitoring_TaskbarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rackspace_Monitoring_TaskbarAppDelegate.m; sourceTree = "<group>"; };
+		0A81ECDA151645DC00E6B0DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0A81ECDD151645DC00E6B0DE /* Rackspace_Monitoring_Taskbar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rackspace_Monitoring_Taskbar.xcdatamodel; sourceTree = "<group>"; };
+		0A81ECE4151647B300E6B0DE /* MonMenulet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonMenulet.h; sourceTree = "<group>"; };
+		0A81ECE5151647B300E6B0DE /* MonMenulet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonMenulet.m; sourceTree = "<group>"; };
+		0A81ECE715164D5500E6B0DE /* cloudmonitoring.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = cloudmonitoring.icns; sourceTree = "<group>"; };
+		0A81ECE915164FB000E6B0DE /* cloudmonitoring.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = cloudmonitoring.tif; sourceTree = "<group>"; };
+		0ACFCB6C15167877007B538A /* AGKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKeychain.h; sourceTree = "<group>"; };
+		0ACFCB6D15167877007B538A /* AGKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKeychain.m; sourceTree = "<group>"; };
+		0ACFCB7415167AA6007B538A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A81ECBD151645DC00E6B0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACFCB7515167AA6007B538A /* Security.framework in Frameworks */,
+				0A81ECC5151645DC00E6B0DE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A81ECB5151645DC00E6B0DE = {
+			isa = PBXGroup;
+			children = (
+				0A81ECCA151645DC00E6B0DE /* Rackspace Monitoring Taskbar */,
+				0A81ECC3151645DC00E6B0DE /* Frameworks */,
+				0A81ECC1151645DC00E6B0DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A81ECC1151645DC00E6B0DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A81ECC0151645DC00E6B0DE /* Rackspace Monitoring Taskbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A81ECC3151645DC00E6B0DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A81ECC4151645DC00E6B0DE /* Cocoa.framework */,
+				0A81ECC6151645DC00E6B0DE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A81ECC6151645DC00E6B0DE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ACFCB7415167AA6007B538A /* Security.framework */,
+				0A81ECC7151645DC00E6B0DE /* AppKit.framework */,
+				0A81ECC8151645DC00E6B0DE /* CoreData.framework */,
+				0A81ECC9151645DC00E6B0DE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0A81ECCA151645DC00E6B0DE /* Rackspace Monitoring Taskbar */ = {
+			isa = PBXGroup;
+			children = (
+				0ACFCB6C15167877007B538A /* AGKeychain.h */,
+				0ACFCB6D15167877007B538A /* AGKeychain.m */,
+				0A81ECE4151647B300E6B0DE /* MonMenulet.h */,
+				0A81ECE5151647B300E6B0DE /* MonMenulet.m */,
+				0A81ECD6151645DC00E6B0DE /* Rackspace_Monitoring_TaskbarAppDelegate.h */,
+				0A81ECD7151645DC00E6B0DE /* Rackspace_Monitoring_TaskbarAppDelegate.m */,
+				0A81ECD9151645DC00E6B0DE /* MainMenu.xib */,
+				0A81ECDC151645DC00E6B0DE /* Rackspace_Monitoring_Taskbar.xcdatamodeld */,
+				0A81ECCB151645DC00E6B0DE /* Supporting Files */,
+			);
+			path = "Rackspace Monitoring Taskbar";
+			sourceTree = "<group>";
+		};
+		0A81ECCB151645DC00E6B0DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A81ECE915164FB000E6B0DE /* cloudmonitoring.tif */,
+				0A81ECE715164D5500E6B0DE /* cloudmonitoring.icns */,
+				0A81ECCC151645DC00E6B0DE /* Rackspace Monitoring Taskbar-Info.plist */,
+				0A81ECCD151645DC00E6B0DE /* InfoPlist.strings */,
+				0A81ECD0151645DC00E6B0DE /* main.m */,
+				0A81ECD2151645DC00E6B0DE /* Rackspace Monitoring Taskbar-Prefix.pch */,
+				0A81ECD3151645DC00E6B0DE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A81ECBF151645DC00E6B0DE /* Rackspace Monitoring Taskbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A81ECE1151645DC00E6B0DE /* Build configuration list for PBXNativeTarget "Rackspace Monitoring Taskbar" */;
+			buildPhases = (
+				0A81ECBC151645DC00E6B0DE /* Sources */,
+				0A81ECBD151645DC00E6B0DE /* Frameworks */,
+				0A81ECBE151645DC00E6B0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rackspace Monitoring Taskbar";
+			productName = "Rackspace Monitoring Taskbar";
+			productReference = 0A81ECC0151645DC00E6B0DE /* Rackspace Monitoring Taskbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A81ECB7151645DC00E6B0DE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0A81ECBA151645DC00E6B0DE /* Build configuration list for PBXProject "Rackspace Monitoring Taskbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A81ECB5151645DC00E6B0DE;
+			productRefGroup = 0A81ECC1151645DC00E6B0DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A81ECBF151645DC00E6B0DE /* Rackspace Monitoring Taskbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A81ECBE151645DC00E6B0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A81ECCF151645DC00E6B0DE /* InfoPlist.strings in Resources */,
+				0A81ECD5151645DC00E6B0DE /* Credits.rtf in Resources */,
+				0A81ECDB151645DC00E6B0DE /* MainMenu.xib in Resources */,
+				0A81ECE815164D5500E6B0DE /* cloudmonitoring.icns in Resources */,
+				0A81ECEA15164FB000E6B0DE /* cloudmonitoring.tif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A81ECBC151645DC00E6B0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A81ECD1151645DC00E6B0DE /* main.m in Sources */,
+				0A81ECD8151645DC00E6B0DE /* Rackspace_Monitoring_TaskbarAppDelegate.m in Sources */,
+				0A81ECDE151645DC00E6B0DE /* Rackspace_Monitoring_Taskbar.xcdatamodeld in Sources */,
+				0A81ECE6151647B300E6B0DE /* MonMenulet.m in Sources */,
+				0ACFCB6E15167877007B538A /* AGKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A81ECCD151645DC00E6B0DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A81ECCE151645DC00E6B0DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A81ECD3151645DC00E6B0DE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A81ECD4151645DC00E6B0DE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0A81ECD9151645DC00E6B0DE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A81ECDA151645DC00E6B0DE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A81ECDF151645DC00E6B0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A81ECE0151645DC00E6B0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A81ECE2151645DC00E6B0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rackspace Monitoring Taskbar/Rackspace Monitoring Taskbar-Prefix.pch";
+				INFOPLIST_FILE = "Rackspace Monitoring Taskbar/Rackspace Monitoring Taskbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A81ECE3151645DC00E6B0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rackspace Monitoring Taskbar/Rackspace Monitoring Taskbar-Prefix.pch";
+				INFOPLIST_FILE = "Rackspace Monitoring Taskbar/Rackspace Monitoring Taskbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A81ECBA151645DC00E6B0DE /* Build configuration list for PBXProject "Rackspace Monitoring Taskbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A81ECDF151645DC00E6B0DE /* Debug */,
+				0A81ECE0151645DC00E6B0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A81ECE1151645DC00E6B0DE /* Build configuration list for PBXNativeTarget "Rackspace Monitoring Taskbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A81ECE2151645DC00E6B0DE /* Debug */,
+				0A81ECE3151645DC00E6B0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0A81ECDC151645DC00E6B0DE /* Rackspace_Monitoring_Taskbar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0A81ECDD151645DC00E6B0DE /* Rackspace_Monitoring_Taskbar.xcdatamodel */,
+			);
+			currentVersion = 0A81ECDD151645DC00E6B0DE /* Rackspace_Monitoring_Taskbar.xcdatamodel */;
+			path = Rackspace_Monitoring_Taskbar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0A81ECB7151645DC00E6B0DE /* Project object */;
+}
