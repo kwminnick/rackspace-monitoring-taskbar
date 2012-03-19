@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MonitoringAPI.h"
 
 @interface MonMenulet : NSObject {
     NSStatusItem *statusItem;
@@ -17,6 +18,8 @@
     
     NSTimer *updateTimer;
     NSInteger timerRefresh;
+    
+    MonitoringAPI *mApi;
     
     //monitoring window
     IBOutlet NSWindow *monWindow;

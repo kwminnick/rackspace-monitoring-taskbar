@@ -8,9 +8,8 @@
 
 #import "MonMenulet.h"
 #import "AGKeychain.h"
-
-#define RAX_MON_TASKBAR         @"Rackspace Cloud Monitoring Taskbar"
-#define RAX_MON_TASKBAR_ACCOUNT @"internet password"
+#import "constants.h"
+#import "Monitor.h"
 
 @implementation MonMenulet
 
@@ -53,6 +52,18 @@
 }
 
 -(IBAction) updateStatus:(id)sender {
+    
+    if(!mApi)
+        mApi = [[MonitoringAPI alloc] init];
+    
+    NSArray *overviews = [mApi getOverviews];
+    
+    for(MonOverview *mo in overviews) {
+        NSArray *alarmStates = [mo getAlarmStates];
+        for(MonAlarmState *mas in alarmStates) {
+            //todo
+        }
+    }
     
     NSString *status = [NSString stringWithString:@""];
     [statusItem setTitle:[NSString stringWithString:status]];
