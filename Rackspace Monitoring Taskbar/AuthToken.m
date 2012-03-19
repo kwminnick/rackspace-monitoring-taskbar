@@ -34,14 +34,13 @@
  
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
     
-    NSString *apiUser;
     if([prefs objectForKey:@"apiUser"]) {
         theAuthUser = [[NSString alloc] initWithString:[prefs objectForKey:@"apiUser"]];
         
         //get the key from keychain
         theAuthKey = [AGKeychain getPasswordFromKeychainItem:RAX_MON_TASKBAR
                                                           withItemKind:RAX_MON_TASKBAR_ACCOUNT 
-                                                           forUsername:apiUser];
+                                                           forUsername:theAuthUser];
     }
 
 	if(theAuthUrl == nil || theAuthKey == nil  || theAuthUser == nil)
@@ -115,6 +114,22 @@
                 [self setToken: [NSString stringWithString:tokenId]];
             break;
         }
+        
+        NSArray* serviceArray = [root nodesForXPath:@"//serviceCatalog/service" error:nil];
+		for(NSXMLElement* xmlElement2 in serviceArray) {
+			NSString *serviceType = [[xmlElement2 attributeForName:@"type"] stringValue];
+			if(serviceType) {
+				if([serviceType isEqualToString:@"compute"]) {
+					NSArray* endPointArray = [xmlElement2 nodesForXPath:@"endpoint" error:nil];
+					for(NSXMLElement *endPoint in endPointArray) {
+						NSString *theTenantId = [[endPoint attributeForName:@"tenantId"] stringValue];
+                        tenantId = [[NSString alloc] initWithString:theTenantId];
+						break;
+					}
+				}
+			}
+		}
+
 	}
 }
 

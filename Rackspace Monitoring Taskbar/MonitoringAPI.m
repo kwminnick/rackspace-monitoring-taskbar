@@ -17,7 +17,7 @@
 
 -(id) init {
     self = [super init];
-    endPoint = [[NSString alloc] initWithString:RACKSPACE_MON_URL];
+    endPoint = [[NSString alloc] initWithFormat:@"%@/%@", RACKSPACE_MON_URL, authToken.tenantId];
     return self;
 }
 

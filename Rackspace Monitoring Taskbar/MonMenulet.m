@@ -56,16 +56,25 @@
     if(!mApi)
         mApi = [[MonitoringAPI alloc] init];
     
+    if(!mApi)
+        return;
+    
     NSArray *overviews = [mApi getOverviews];
     
+    if(!overviews)
+        return;
+    
+    NSString *status = [NSString stringWithString:@""];
     for(MonOverview *mo in overviews) {
         NSArray *alarmStates = [mo getAlarmStates];
         for(MonAlarmState *mas in alarmStates) {
-            //todo
+            if([mas.state isEqualToString:@"CRITICAL"] || [mas.state isEqualToString:@"WARNING"]) {
+                status = [NSString stringWithString:mas.state];
+                break;
+            }
         }
     }
     
-    NSString *status = [NSString stringWithString:@""];
     [statusItem setTitle:[NSString stringWithString:status]];
      
 }
