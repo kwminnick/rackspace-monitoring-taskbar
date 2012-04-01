@@ -105,8 +105,17 @@
         //parse the xml
         NSXMLDocument* doc = [[NSXMLDocument alloc] initWithData:responseData options:0 error:nil];
         NSXMLElement* root  = [doc rootElement];
-				
-        NSArray* tokenArray = [root nodesForXPath:@"//token" error:nil];
+		
+        //handle namespaces
+        NSString *prefix = @"";
+        if([[root prefix] length] > 0)
+            prefix = [NSString stringWithFormat:@"%@:", [root prefix]];
+        
+        NSString *tokenPath = [NSString stringWithFormat:@"//%@token", prefix]; 
+        NSString *servicePath = [NSString stringWithFormat:@"//%@serviceCatalog/%@service", prefix, prefix];
+        NSString *endPointPath = [NSString stringWithFormat:@"%@endpoint", prefix];
+		
+        NSArray* tokenArray = [root nodesForXPath:tokenPath error:nil];
         for(NSXMLElement* xmlElement in tokenArray) {
             //pull the values from the xml
             NSString *tokenId = [[xmlElement attributeForName:@"id"] stringValue];
@@ -114,13 +123,13 @@
                 [self setToken: [NSString stringWithString:tokenId]];
             break;
         }
-        
-        NSArray* serviceArray = [root nodesForXPath:@"//serviceCatalog/service" error:nil];
+                
+        NSArray* serviceArray = [root nodesForXPath:servicePath error:nil];
 		for(NSXMLElement* xmlElement2 in serviceArray) {
 			NSString *serviceType = [[xmlElement2 attributeForName:@"type"] stringValue];
 			if(serviceType) {
 				if([serviceType isEqualToString:@"compute"]) {
-					NSArray* endPointArray = [xmlElement2 nodesForXPath:@"endpoint" error:nil];
+					NSArray* endPointArray = [xmlElement2 nodesForXPath:endPointPath error:nil];
 					for(NSXMLElement *endPoint in endPointArray) {
 						NSString *theTenantId = [[endPoint attributeForName:@"tenantId"] stringValue];
                         tenantId = [[NSString alloc] initWithString:theTenantId];
@@ -193,13 +202,21 @@
 		//parse the xml
 		NSXMLDocument* doc = [[NSXMLDocument alloc] initWithData:responseData options:0 error:nil];
 		NSXMLElement* root  = [doc rootElement];
+        
+        //handle namespaces
+        NSString *prefix = @"";
+        if([[root prefix] length] > 0)
+            prefix = [NSString stringWithFormat:@"%@:", [root prefix]];
+        
+        NSString *servicePath = [NSString stringWithFormat:@"//%@serviceCatalog/%@service", prefix, prefix];
+        NSString *endPointPath = [NSString stringWithFormat:@"%@endpoint", prefix];
 				
-		NSArray* serviceArray = [root nodesForXPath:@"//serviceCatalog/service" error:nil];
+		NSArray* serviceArray = [root nodesForXPath:servicePath error:nil];
 		for(NSXMLElement* xmlElement in serviceArray) {
 			NSString *serviceType = [[xmlElement attributeForName:@"type"] stringValue];
 			if(serviceType) {
 				if([serviceType isEqualToString:@"compute"]) {
-					NSArray* endPointArray = [xmlElement nodesForXPath:@"endpoint" error:nil];
+					NSArray* endPointArray = [xmlElement nodesForXPath:endPointPath error:nil];
 					for(NSXMLElement *endPoint in endPointArray) {
 						tenantId = [[endPoint attributeForName:@"tenantId"] stringValue];
 						break;

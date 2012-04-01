@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A743E391528BE47003A79C5 /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 0A743E381528BE47003A79C5 /* CHANGELOG */; };
 		0A81ECC5151645DC00E6B0DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A81ECC4151645DC00E6B0DE /* Cocoa.framework */; };
 		0A81ECCF151645DC00E6B0DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A81ECCD151645DC00E6B0DE /* InfoPlist.strings */; };
 		0A81ECD1151645DC00E6B0DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A81ECD0151645DC00E6B0DE /* main.m */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A743E381528BE47003A79C5 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CHANGELOG; path = "Rackspace Monitoring Taskbar/CHANGELOG"; sourceTree = SOURCE_ROOT; };
 		0A81ECC0151645DC00E6B0DE /* Rackspace Monitoring Taskbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rackspace Monitoring Taskbar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A81ECC4151645DC00E6B0DE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0A81ECC7151645DC00E6B0DE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -175,6 +177,7 @@
 				0ACFCBA215169B28007B538A /* ASIHTTP */,
 				0ACFCBAA15169C17007B538A /* constants.h */,
 				0ACFCB7815169A5D007B538A /* README */,
+				0A743E381528BE47003A79C5 /* CHANGELOG */,
 				0A81ECE4151647B300E6B0DE /* MonMenulet.h */,
 				0A81ECE5151647B300E6B0DE /* MonMenulet.m */,
 				0A81ECD6151645DC00E6B0DE /* Rackspace_Monitoring_TaskbarAppDelegate.h */,
@@ -310,6 +313,7 @@
 				0A81ECE815164D5500E6B0DE /* cloudmonitoring.icns in Resources */,
 				0A81ECEA15164FB000E6B0DE /* cloudmonitoring.tif in Resources */,
 				0ACFCB7915169A5D007B538A /* README in Resources */,
+				0A743E391528BE47003A79C5 /* CHANGELOG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

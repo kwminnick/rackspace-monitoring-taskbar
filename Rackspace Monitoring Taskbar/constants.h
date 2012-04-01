@@ -43,7 +43,7 @@
 //rackspace specific constants (US)
 #define RACKSPACE_CLOUD			@"Rackspace Cloud (US)"
 #define RACKSPACE_AUTH2_URL		@"https://auth.api.rackspacecloud.com/v2.0"
-#define RACKSPACE_MON_URL		@"https://cmbeta.api.rackspacecloud.com/v1.0"
+#define RACKSPACE_MON_URL		@"https://monitoring.api.rackspacecloud.com/v1.0"
 
 //keychain
 #define RAX_MON_TASKBAR         @"Rackspace Cloud Monitoring Taskbar"
